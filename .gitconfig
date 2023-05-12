@@ -1,0 +1,27 @@
+[user]
+	name = antoineradix
+	email = 34069532+antoineradix@users.noreply.github.com
+[color]
+  ui = auto
+[alias]
+  a = add
+  ap = add -p
+  cl = clone
+  br = branch
+  c = commit
+  d = diff
+  l = log --oneline
+  ll = log --stat
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
+  s = status -s
+  st = status
+  # Magit-style
+  bb = checkout
+  bc = checkout -b
+  zz = stash save
+  zp = stash pop
+  p = push
+
+[commit]
+  verbose = true
+  template = ~/.config/.gitmessage

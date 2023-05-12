@@ -1,0 +1,16 @@
+# Conventional Commits: <https://www.conventionalcommits.org/en/v1.0.0-beta.2/>
+
+# /--- type ---/
+# Build - Build related changes
+# Chore - Build process or auxiliary tool changes
+# Docs - Documentation only changes
+# Feat - A new feature
+# Fix - A bug fix
+# Perf - A code change that improves performance
+# Refactor - A code change that neither fixes a bug or adds a feature
+# Revert - Reverting things
+# Style - Markup, white-space, formatting, missing semi-colons...
+# Test - Adding missing tests
+#
+# /--- subject ---/
+#
