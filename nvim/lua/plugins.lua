@@ -31,6 +31,14 @@ return require("packer").startup(function(use)
 	})
 
 	use({
+		"windwp/nvim-autopairs",
+		commit = "4fc96c8f3df89b6d23e5092d31c866c53a346347",
+		config = function()
+			require("nvim-autopairs").setup({})
+		end,
+	})
+
+	use({
 		"moll/vim-bbye",
 		commit = "25ef93ac5a87526111f43e5110675032dbcacf56",
 	})
